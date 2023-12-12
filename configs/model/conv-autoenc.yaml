@@ -1,0 +1,13 @@
+_target_: src.models.convolutional_autoencoder.ConvNetAutoEncoder
+
+lr: 0.0001
+inter_dim: 1024
+latent_dim: 256 #Latent dim when its higher it tries to learn everything. But now we want to reduce the learning so it captures only most seen samples.
+series_dim: 32
+features_dim: 160
+num_category: 54
+num_numerical: 106 
+num_conv_blocks: 2
+dims_expand: [1,2,4,8,16]
+dropout_prob: 0.1
+weight_decay: 0.05

@@ -1,0 +1,14 @@
+_target_: src.models.recurrent_classifier.ReplacementRecurrentClassifier
+
+lr: 0.0001
+latent_dim: 750
+series_dim: 32
+features_dim: 200
+num_layers: 1
+weight_decay: 0.05
+linear_reduction: 0.1
+dropout_prob: 0.5
+output_dim: 1
+freeze_encoder: False
+name_labels_logger: ['label_cpe_replacement']
+checkpoint: '/Users/luisfelipevillaarenas/Documents/T-con/Projects/predictive_care/cpe-replacement/logs/runs/recurrent-autoencoder/2021-07-06/22-54-24/checkpoints/epoch=53.ckpt'

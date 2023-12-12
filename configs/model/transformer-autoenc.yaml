@@ -1,0 +1,17 @@
+_target_: src.models.transformer_autoencoder.TransformerAutoEncoder
+
+init_lr: 0.0001   
+lr_decay: .98
+num_category: 54
+num_numerical: 106 
+seq_len: 32
+embed_dim: 160
+num_heads: 4
+dropout: .1
+feedforward_dim: 512 
+emphasis: 1.0
+numerical_weight_loss: 0.4
+categorical_weight_loss: 0.3
+mask_weight_loss: 2
+swap_category: 0.5
+swap_numerical: 0.25

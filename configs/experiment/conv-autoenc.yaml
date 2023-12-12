@@ -1,0 +1,17 @@
+# @package _global_
+
+# to execute this experiment run:
+# python run.py experiment=example_simple.yaml
+
+defaults:
+  - override /trainer: conv-autoenc.yaml # choose trainer from 'configs/trainer/'
+  - override /model: conv-autoenc.yaml
+  - override /datamodule: cpe-replacement.yaml
+  - override /callbacks: conv-autoenc.yaml
+  - override /logger: wandb
+
+# all parameters below will be merged with parameters from default configurations set above
+# this allows you to overwrite only specified parameters
+
+seed: 12345
+

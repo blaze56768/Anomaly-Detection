@@ -1,0 +1,9 @@
+_target_: src.models.recurrent_autoencoder.RecurrentAutoEncoder
+
+lr: 0.0002
+latent_dim: 256
+series_dim: 32
+features_dim: 160
+num_layers: 2
+weight_decay: 0.02
+

@@ -1,0 +1,24 @@
+_target_: src.models.convolutional_classifier.ReplacementConvClassifier
+
+lr: 0.0001
+latent_dim: 256 
+series_dim: 32
+features_dim: 160
+num_category: 54
+num_numerical: 106 
+num_conv_blocks: 2
+dims_expand: [1,2,4,8,16]
+dropout_prob: 0.1
+output_dim: 2
+weight_decay: 0.05
+inter_dim: 64
+freeze_encoder: True
+name_labels_logger: ["label_minor_physical_thermal_damage","label_no_problem"] 
+weights_class: [1, 0.4]
+checkpoint: '/Users/vikaschaturvedi/Documents/TCON/predictive_care/cpe-replacement-latest/logs/runs/convolutional-autoencoder/2021-09-28/10-57-37/checkpoints/epoch=85.ckpt'
+#'/Users/vikaschaturvedi/Documents/TCON/predictive_care/cpe-replacement-latest/logs/runs/convolutional-autoencoder/2021-09-26/09-56-36/checkpoints/epoch=117.ckpt' #sampler ae 8 for thermal damage on complete data
+#'/Users/vikaschaturvedi/Documents/TCON/predictive_care/cpe-replacement-latest/logs/runs/convolutional-autoencoder/2021-09-24/18-00-25/checkpoints/epoch=58.ckpt' all data previous thermal wala labels
+#'/Users/vikaschaturvedi/Documents/TCON/predictive_care/cpe-replacement-latest/logs/runs/convolutional-autoencoder/2021-09-22/09-50-45/checkpoints/epoch=62.ckpt' all data
+#'/Users/vikaschaturvedi/Documents/TCON/predictive_care/cpe-replacement-latest/logs/runs/convolutional-autoencoder/2021-09-20/16-17-39/checkpoints/epoch=58.ckpt' - It was model of Thermal damage, No problem and Healthy data
+#,"label_no_problem", "label_power_supply","label_power_supply","label_dsl_port","label_healthy"]
+#  "label_device_overheating","label_significant_physical_damage_irreparable","label_no_problem"

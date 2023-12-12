@@ -1,0 +1,22 @@
+_target_: src.models.transformer_classifier.ReplacementTransformerClassifier
+
+init_lr: 0.0001   
+lr_decay: .98
+num_category: 54
+num_numerical: 106 
+seq_len: 32
+embed_dim: 160
+num_heads: 4
+dropout: .1
+feedforward_dim: 512 
+emphasis: 0.8
+numerical_weight_loss: 0.4
+categorical_weight_loss: 0.3
+mask_weight_loss: 2
+swap_category: 0.2
+swap_numerical: 0.25
+inter_dim: 20
+output_dim: 1
+freeze_encoder:  False
+name_labels_logger: ['label_minor_physical_thermal_damage']
+checkpoint:  '/Users/luisfelipevillaarenas/Documents/T-con/Projects/predictive_care/cpe-replacement/logs/runs/transformer-autoencoder/2021-08-23/17-43-31/checkpoints/epoch=99.ckpt'

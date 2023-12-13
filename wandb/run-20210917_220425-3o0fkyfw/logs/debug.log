@@ -1,0 +1,72 @@
+2021-09-17 22:04:25,369 INFO    MainThread:6566 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-17 22:04:25,370 INFO    MainThread:6566 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-17 22:04:25,370 INFO    MainThread:6566 [wandb_init.py:_log_setup():337] Logging user logs to /Users/luisfelipevillaarenas/Documents/T-con/Projects/predictive_care/cpe-replacement/wandb/run-20210917_220425-3o0fkyfw/logs/debug.log
+2021-09-17 22:04:25,370 INFO    MainThread:6566 [wandb_init.py:_log_setup():338] Logging internal logs to /Users/luisfelipevillaarenas/Documents/T-con/Projects/predictive_care/cpe-replacement/wandb/run-20210917_220425-3o0fkyfw/logs/debug-internal.log
+2021-09-17 22:04:25,371 INFO    MainThread:6566 [wandb_init.py:_jupyter_setup():288] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fb1bfc06a90>
+2021-09-17 22:04:25,373 INFO    MainThread:6566 [wandb_init.py:init():370] calling init triggers
+2021-09-17 22:04:25,373 INFO    MainThread:6566 [wandb_init.py:init():375] wandb.init called with sweep_config: {}
+config: {}
+2021-09-17 22:04:25,373 INFO    MainThread:6566 [wandb_init.py:init():419] starting backend
+2021-09-17 22:04:25,373 INFO    MainThread:6566 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2021-09-17 22:04:25,405 INFO    MainThread:6566 [backend.py:ensure_launched():135] starting backend process...
+2021-09-17 22:04:25,431 INFO    MainThread:6566 [backend.py:ensure_launched():139] started backend process with pid: 8314
+2021-09-17 22:04:25,436 INFO    MainThread:6566 [wandb_init.py:init():424] backend started and connected
+2021-09-17 22:04:25,445 INFO    MainThread:6566 [wandb_run.py:_label_probe_notebook():845] probe notebook
+2021-09-17 22:04:25,446 INFO    MainThread:6566 [wandb_run.py:_label_probe_notebook():852] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2021-09-17 22:04:25,446 INFO    MainThread:6566 [wandb_init.py:init():472] updated telemetry
+2021-09-17 22:04:25,447 INFO    MainThread:6566 [wandb_init.py:init():491] communicating current version
+2021-09-17 22:04:28,318 INFO    MainThread:6566 [wandb_init.py:init():496] got version response upgrade_message: "wandb version 0.12.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-09-17 22:04:28,320 INFO    MainThread:6566 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2021-09-17 22:04:28,921 INFO    MainThread:6566 [wandb_init.py:init():529] starting run threads in backend
+2021-09-17 22:04:33,928 INFO    MainThread:6566 [wandb_run.py:_console_start():1624] atexit reg
+2021-09-17 22:04:33,929 INFO    MainThread:6566 [wandb_run.py:_redirect():1498] redirect: SettingsConsole.WRAP
+2021-09-17 22:04:33,930 INFO    MainThread:6566 [wandb_run.py:_redirect():1535] Wrapping output streams.
+2021-09-17 22:04:33,931 INFO    MainThread:6566 [wandb_run.py:_redirect():1559] Redirects installed.
+2021-09-17 22:04:33,931 INFO    MainThread:6566 [wandb_init.py:init():554] run started, returning control to user process
+2021-09-17 22:04:33,933 INFO    MainThread:6566 [wandb_run.py:_config_callback():873] config_cb None None {'lr': 0.001, 'dropout_prob': 0.1, 'weight_decay': 0.05, 'latent_dim': 500, 'inter_dim': 32, 'output_dim': 1, 'freeze_encoder': True, 'encoder_thermal': 'None', 'encoder_base': 'None'}
+2021-09-17 22:04:37,866 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:04:37,866 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:06:12,782 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:06:12,816 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:06:12,817 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:06:17,844 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:06:17,849 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:06:17,849 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:06:18,967 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:06:18,982 INFO    MainThread:6566 [wandb_run.py:_config_callback():873] config_cb None None {'lr': 0.001, 'dropout_prob': 0.1, 'weight_decay': 0.05, 'latent_dim': 500, 'inter_dim': 32, 'output_dim': 1, 'freeze_encoder': True, 'encoder_thermal': 'None', 'encoder_base': 'None', 'name_labels_logger': ['label_minor_physical_thermal_damage']}
+2021-09-17 22:06:29,881 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:06:29,881 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:06:58,947 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:06:58,959 INFO    MainThread:6566 [wandb_run.py:_config_callback():873] config_cb None None {'lr': 0.001, 'dropout_prob': 0.1, 'weight_decay': 0.05, 'latent_dim': 500, 'inter_dim': 32, 'output_dim': 1, 'freeze_encoder': True, 'encoder_thermal': 'None', 'encoder_base': 'None', 'name_labels_logger': ['label_minor_physical_thermal_damage']}
+2021-09-17 22:07:16,736 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:07:16,736 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:07:38,709 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:07:38,710 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:07:38,710 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:07:52,744 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:07:52,757 INFO    MainThread:6566 [wandb_run.py:_config_callback():873] config_cb None None {'lr': 0.001, 'dropout_prob': 0.1, 'weight_decay': 0.05, 'latent_dim': 500, 'inter_dim': 32, 'output_dim': 1, 'freeze_encoder': True, 'encoder_thermal': 'None', 'encoder_base': 'None', 'name_labels_logger': ['label_minor_physical_thermal_damage']}
+2021-09-17 22:08:33,047 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:08:33,047 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:08:48,929 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:08:48,993 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:08:48,994 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:09:00,421 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:09:02,801 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:09:02,803 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:10:08,976 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:10:08,989 INFO    MainThread:6566 [wandb_run.py:_config_callback():873] config_cb None None {'lr': 0.001, 'dropout_prob': 0.1, 'weight_decay': 0.05, 'latent_dim': 500, 'inter_dim': 32, 'output_dim': 1, 'freeze_encoder': True, 'encoder_thermal': 'None', 'encoder_base': 'None', 'name_labels_logger': ['label_minor_physical_thermal_damage']}
+2021-09-17 22:15:25,290 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:15:25,290 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:17:26,695 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:17:26,877 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:17:26,877 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:18:10,932 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:18:11,076 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:18:11,076 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:18:47,121 INFO    MainThread:6566 [wandb_init.py:_resume_backend():259] resuming backend
+2021-09-17 22:18:47,135 INFO    MainThread:6566 [wandb_init.py:_pause_backend():250] pausing backend
+2021-09-17 22:18:47,135 INFO    MainThread:6566 [jupyter.py:save_ipynb():284] not saving jupyter notebook
+2021-09-17 22:18:58,593 INFO    MainThread:6566 [wandb_run.py:_atexit_cleanup():1594] got exitcode: 0
+2021-09-17 22:18:58,594 INFO    MainThread:6566 [wandb_run.py:_restore():1566] restore
+2021-09-17 22:18:58,993 INFO    MainThread:6566 [wandb_run.py:_restore():1566] restore

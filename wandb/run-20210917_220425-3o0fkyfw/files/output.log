@@ -1,0 +1,251 @@
+  | Name            | Type        | Params
+------------------------------------------------
+0 | dropout         | Dropout     | 0
+1 | input_linear    | Linear      | 16.0 K
+2 | output_linear   | Linear      | 33
+3 | encoder_thermal | ConvEncoder | 2.1 M
+4 | encoder_base    | ConvEncoder | 2.1 M
+5 | criterion       | BCELoss     | 0
+------------------------------------------------
+16.1 K    Trainable params
+4.1 M     Non-trainable params
+4.1 M     Total params
+16.473    Total estimated model params size (MB)
+Validation sanity check:   0%|          | 0/1 [00:00<?, ?it/s]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+  | Name            | Type        | Params
+------------------------------------------------
+0 | dropout         | Dropout     | 0
+1 | input_linear    | Linear      | 16.0 K
+2 | output_linear   | Linear      | 33
+3 | encoder_thermal | ConvEncoder | 2.1 M
+4 | encoder_base    | ConvEncoder | 2.1 M
+5 | criterion       | BCELoss     | 0
+------------------------------------------------
+16.1 K    Trainable params
+4.1 M     Non-trainable params
+4.1 M     Total params
+
+Epoch 0:  50%|█████     | 1/2 [00:03<00:03,  3.58s/it, loss=0.703, v_num=kyfw]
+
+Validating: 100%|██████████| 1/1 [00:03<00:00,  3.44s/it]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+  | Name            | Type        | Params
+------------------------------------------------
+0 | dropout         | Dropout     | 0
+1 | input_linear    | Linear      | 16.0 K
+2 | output_linear   | Linear      | 33
+3 | encoder_thermal | ConvEncoder | 2.1 M
+4 | encoder_base    | ConvEncoder | 2.1 M
+5 | criterion       | BCELoss     | 0
+------------------------------------------------
+16.1 K    Trainable params
+4.1 M     Non-trainable params
+4.1 M     Total params
+
+
+Epoch 1:  50%|█████     | 1/2 [00:03<00:03,  3.57s/it, loss=0.579, v_num=kyfw]
+
+Validating:   0%|          | 0/1 [00:00<?, ?it/s]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+  | Name            | Type        | Params
+------------------------------------------------
+0 | dropout         | Dropout     | 0
+1 | input_linear    | Linear      | 16.0 K
+2 | output_linear   | Linear      | 33
+3 | encoder_thermal | ConvEncoder | 2.1 M
+4 | encoder_base    | ConvEncoder | 2.1 M
+5 | criterion       | BCELoss     | 0
+------------------------------------------------
+16.1 K    Trainable params
+4.1 M     Non-trainable params
+4.1 M     Total params
+16.473    Total estimated model params size (MB)
+
+
+Epoch 0:   0%|          | 0/225 [00:00<?, ?it/s]
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+  | Name            | Type        | Params
+------------------------------------------------
+0 | dropout         | Dropout     | 0
+1 | input_linear    | Linear      | 16.0 K
+2 | output_linear   | Linear      | 33
+3 | encoder_thermal | ConvEncoder | 2.1 M
+4 | encoder_base    | ConvEncoder | 2.1 M
+5 | criterion       | BCELoss     | 0
+------------------------------------------------
+16.1 K    Trainable params
+4.1 M     Non-trainable params
+4.1 M     Total params
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  94%|█████████▍| 211/225 [01:44<00:06,  2.01it/s, loss=0.223, v_num=kyfw]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  92%|█████████▏| 207/225 [01:51<00:09,  1.85it/s, loss=0.157, v_num=kyfw]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 2:  74%|███████▍  | 167/225 [01:42<00:35,  1.64it/s, loss=0.23, v_num=kyfw]
+GPU available: False, used: False
+Epoch 2:  74%|███████▍  | 167/225 [01:42<00:35,  1.64it/s, loss=0.23, v_num=kyfw]Error in callback <function _WandbInit._resume_backend at 0x7fb1b8439790> (for pre_run_cell):
+Error in callback <function _WandbInit._pause_backend at 0x7fb1b8439550> (for post_run_cell):
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+Error in callback <function _WandbInit._resume_backend at 0x7fb1b8439790> (for pre_run_cell):
+Error in callback <function _WandbInit._pause_backend at 0x7fb1b8439550> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7fb1b8439790> (for pre_run_cell):
+Error in callback <function _WandbInit._pause_backend at 0x7fb1b8439550> (for post_run_cell):

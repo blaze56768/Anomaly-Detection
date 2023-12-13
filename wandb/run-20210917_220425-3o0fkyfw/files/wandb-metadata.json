@@ -1,0 +1,24 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-09-17T20:04:28.933920",
+    "startedAt": "2021-09-17T20:04:25.362800",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/Users/luisfelipevillaarenas/Library/Jupyter/runtime/kernel-c697a984-13f2-4e04-a82b-440f90616d92.json"
+    ],
+    "state": "running",
+    "program": "Documents/T-con/Projects/predictive_care/cpe-replacement/bias-experiment.ipynb",
+    "root": "/Users/luisfelipevillaarenas/Documents/T-con/Projects/predictive_care/cpe-replacement",
+    "git": {
+        "remote": "https://ml-tcon-wbench.workbench.telekom.de/gitlab/couch/ml/hrvatski-telekom/cpe-replacement/cpe-replacement/cpe-replacement.git",
+        "commit": "1f834d31f9583d58004034261d3e0621bc1cec70"
+    },
+    "email": "luis-felipe.villa-arenas@telekom.de",
+    "host": "Luiss-MacBook-Pro.local",
+    "username": "luisfelipevillaarenas",
+    "executable": "/Users/luisfelipevillaarenas/opt/anaconda3/envs/cpe-replacement/bin/python"
+}

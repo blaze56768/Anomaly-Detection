@@ -1,0 +1,106 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.32
+    framework: lightning
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: train/loss_step
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    - 1: train/label_minor_physical_thermal_damage/accuracy
+      5: 1
+      6:
+      - 1
+    - 1: train/label_minor_physical_thermal_damage/precision
+      5: 1
+      6:
+      - 1
+    - 1: train/label_minor_physical_thermal_damage/recall
+      5: 1
+      6:
+      - 1
+    - 1: train/label_minor_physical_thermal_damage/f1
+      5: 1
+      6:
+      - 1
+    - 1: val/label_minor_physical_thermal_damage/accuracy
+      5: 1
+      6:
+      - 1
+    - 1: val/label_minor_physical_thermal_damage/precision
+      5: 1
+      6:
+      - 1
+    - 1: val/label_minor_physical_thermal_damage/recall
+      5: 1
+      6:
+      - 1
+    - 1: val/label_minor_physical_thermal_damage/f1
+      5: 1
+      6:
+      - 1
+    - 1: val/loss
+      5: 1
+      6:
+      - 1
+    python_version: 3.8.10
+    t:
+      1:
+      - 1
+      - 5
+      - 9
+      2:
+      - 1
+      - 5
+      - 9
+      3:
+      - 7
+      4: 3.8.10
+      5: 0.10.32
+      8:
+      - 1
+      - 2
+      - 5
+dropout_prob:
+  desc: null
+  value: 0.25
+encoder_base:
+  desc: null
+  value: null
+encoder_thermal:
+  desc: null
+  value: null
+freeze_encoder:
+  desc: null
+  value: true
+inter_dim:
+  desc: null
+  value: 32
+latent_dim:
+  desc: null
+  value: 500
+lr:
+  desc: null
+  value: 0.0001
+name_labels_logger:
+  desc: null
+  value:
+  - label_minor_physical_thermal_damage
+output_dim:
+  desc: null
+  value: 1
+weight_decay:
+  desc: null
+  value: 0.05
